@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: crx_description
+    relative_path: crx20/urdf/crx20ia_l.xacro
+  srdf:
+    relative_path: config/crx20ia_l.srdf
+  package_settings:
+    author_name: paolo franceschi
+    author_email: paolo.franceschi@supsi.ch
+    generated_timestamp: 1698414155
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
