@@ -7,19 +7,4 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: paolo franceschi
     author_email: paolo.franceschi@supsi.ch
-    generated_timestamp: 1698414155
-  control_xacro:
-    command:
-      - position
-    state:
-      - position
-      - velocity
-  modified_urdf:
-    xacros:
-      - control_xacro
-  control_xacro:
-    command:
-      - position
-    state:
-      - position
-      - velocity
+    generated_timestamp: 1700207515
