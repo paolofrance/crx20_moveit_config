@@ -3,7 +3,7 @@
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
     <!-- Import crx20ia_l urdf file -->
-    <xacro:include filename="$(find crx_description)/crx20/urdf/crx20ia_l.xacro" />
+    <xacro:include filename="$(find crx_description)/urdf/crx20ia_l//crx20ia_l.xacro" />
 
     <!-- Import control_xacro -->
     <xacro:include filename="crx20ia_l.ros2_control.xacro" />
